@@ -1,0 +1,78 @@
+.dashboard-container {
+    background-color: rgba(242, 242, 249, 1);
+}
+
+.balance-info-card {
+    background: linear-gradient(93.31deg, #305FEC 0.46%, #6BAAFC 97.93%), linear-gradient(0deg, #EBE9E9, #EBE9E9);
+    border-radius: 15px;
+}
+
+.balance-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+
+.balance-value {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+}
+
+.bar-icon:hover {
+    cursor: pointer;
+}
+
+.earnings-container {
+    height: 320px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 20px 20px 50px 20px !important;
+}
+
+.chart-title {
+    color: rgba(73, 80, 87, 1);
+    font-weight: 600;
+}
+
+.profit-mark {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgba(103, 177, 115, 1);
+}
+
+.loss-mark {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgba(251, 100, 100, 1);
+}
+
+.portfolio-container {
+    height: 320px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+
+.portfollio-title {
+    color: rgba(52, 89, 149, 1);
+    font-weight: 600;
+}
+
+.deposite-mark {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgba(6, 142, 208, 1);
+}
+
+.withdrow-mark {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgba(52, 89, 149, 1);
+}
+
+.pie-chart-container {
+    height: 250px;
+    padding: 0px !important;
+}

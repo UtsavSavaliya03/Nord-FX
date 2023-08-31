@@ -1,0 +1,70 @@
+.greetings-card-container {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.greetings-msg {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.greetings-description {
+    color: rgba(73, 80, 87, 1);
+}
+
+.greetings-bg {
+    background-image: url('../../../../Assets//Images/bg-blue.png');
+    border-radius: 15px;
+    background-repeat: no-repeat    ;
+}
+
+.greetings-bg .title-line-1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.greetings-bg .title-line-2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.greetings-bg img {
+    height: 100px;
+}
+
+@media only screen and (max-width: 820px) {
+    .greetings-bg .title-line-1 {
+        font-size: 18px;
+    }
+
+    .greetings-bg .title-line-2 {
+        font-size: 20px;
+    }
+
+    .greetings-bg img {
+        height: 70px;
+    }
+
+    .break-line-3 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .greetings-bg {
+        background-size: cover;
+    }    
+    .greetings-bg .title-line-1 {
+        font-size: 14px;
+    }
+
+    .greetings-bg .title-line-2 {
+        font-size: 16px;
+    }
+}
